@@ -1,0 +1,89 @@
+body {
+    /* Sade arka plan rengi */
+    background-color: #f4f4f9; 
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+    border-radius: 10px;
+    /* Hafif bir gölge */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff;
+    max-width: 90%;
+}
+
+/* Tüm düğmelerin genel stili */
+button {
+    background-color: #6495ED; /* Daha sakin bir mavi */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4682B4; /* Hover'da koyu mavi */
+}
+
+/* Şifre Giriş Ekranı Stilleri */
+#passwordScreen {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#passwordInput {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 1em;
+    width: 200px;
+    text-align: center;
+}
+
+/* Mesaj Ekranı Stilleri */
+#messageDisplay h1 {
+    color: #FF69B4; /* Pembe renk */
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+#messageDisplay h2 {
+    color: #4682B4; 
+    margin-top: 5px;
+    font-size: 1.8em;
+}
+
+#messageDisplay h3 {
+    color: #6495ED; 
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+
+.signature {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Gizleme sınıfı */
+.hidden {
+    display: none;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
